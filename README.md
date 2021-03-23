@@ -15,4 +15,23 @@ install req
 pip install -r requirements.txt
 ```
 
+download the data
+
+initialize git
+```bash
+git init
+```
+
+```bash
+dvc init
+```
+
+```bash
+dvc add data_given/winequality.csv
+```
+
+```bash
+git add .
+```
+
 
